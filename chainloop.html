@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chainloop.css">
+    <title>Chain Loop</title>
+    <script src="https://kit.fontawesome.com/3a13f5fc92.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+   <!--logo section-->
+
+
+   <div class="logo">
+    <img src="pic6.png" alt="chrome" height="60px" width="60px">
+    <p><span style="color: rgb(255, 72, 0);">Ready</span> to meet <br>New <span style="color: rgb(255, 72, 0);">people</span></p>
+    <h1>|<span style="color: darkorange;">C</span>hain   <span style="color: darkorange;">L</span>oop|</h1>
+    <input type="text">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    
+   </div>
+
+
+   <!--slide section-->
+   <div class="slideshow">
+    <div><img src="pic14.jpg" alt="blonde"></div>
+    <div><img src="pic16.jpg" alt="blonde" style="margin-top: 60px;"></div>
+    <div><img src="pic17.jpg" alt="blonde"></div>
+   </div>
+
+
+   <!--nav section-->
+
+
+   <div class="nav">
+   
+       <ul class="dropdown">
+        <marquee behavior="" direction="left" style="font-size: 1.2rem; color: rgb(166, 255, 0);">Dear travallers please drive safely and wear sefty gears Thank You !!</marquee>
+        <li><a href="#">Home</a></li>
+        <li><a href="hills.html" target="_blank" >Hills</a></li>
+        <li><a href="form.html" target="_blank">Trip</a></li>
+        <li><a href="login page .html" target="_blank">Log in/Out</a></li>
+        <li><a href="mailto:danad001@gmail.com">Contact</a></li>
+       </ul>
+   </div>
+   <div class="select">
+    <h1>Choose Your Destination</h1>
+    <p>Tamilnaadu Offers wide rage of beautiful locations. Choose your location below</p>
+
+
+    <!--the box-->
+
+
+    <div class="box">
+    <div class="col">
+       <h3>Kolli hills </h3>
+     </div>
+     <div class="col1">
+        <h3>Kodaikanal </h3>
+     </div>
+     <div class="col2">
+        <h3>Ooty</h3>
+     </div>
+    
+    </div>
+
+   </div>
+<!--temple-->
+
+   <div class="temple">
+      <div class="temple1">
+         <img src="pic19.jpg" height="400px" width="250px">
+         <div class="discribe">
+            <h1>Kolli Hills</h1>
+            <p><b>located</b> : Naamakkal</p>
+            <p><b>falls</b> : Aagaya Gangai</p>
+            <p><b>Visite</b> : November to January</p>
+            <p><b>About Kolli hills : </b></p>
+            <p style="text-indent: 60px; font-size: 14px;">According to legend, the sages chose Kolli hills when they were looking for a peaceful place to do their penance.
+                However, the demons invaded the hills to disrupt the penance when the sages began their rituals. The sages prayed to Kollipavai,
+                who according to the myth, chased away the demons with her enchanting smile</p>
+
+         </div>
+         <img src="pic20.jpg" height="400px" width="250px">
+         <div class="discribe">
+            <h1>Yercaud</h1>
+            <p><b>located</b> : Salem</p>
+            <p><b>falls</b> : Killiyur Falls</p>
+            <p><b>Visite</b> : November to January</p>
+            <p><b>About Yercaud : </b></p>
+            <p style="text-indent: 60px; font-size: 14px;">Yercaud got its name from the Tamil words, yeri and kaadu, 
+               meaning lake and forest respectively. The British discovered it in the early 19th century. 
+               There are accounts of coffee plantations being introduced by a British officer in the area in the second decade of the 19th century.</p>
+
+         </div>
+      </div>
+      
+   </div>
+
+   <!--footer section-->
+
+
+<div class="footer">
+   <table style="width: 70%; color: white;">
+      <tr style="text-align:left; padding: 20px;">
+         <th>About Us </th>
+         <th>Tamilnaadu Tourism</th>
+         <th>Hills</th>
+         <th>Contact</th>
+      </tr>
+      <tr>
+         <td>We are here to connect people</td>
+         <td>Tamilnaadu Government</td>
+         <td>Kolli hills</td>
+         
+      </tr>
+      <tr>
+         <td></td>
+         <td></td>
+         <td>Yelagiri hills</td>
+         <td> </td>
+      </tr>
+      <tr>
+         <td></td>
+         <td></td>
+         <td>jawvadhu hills</td>
+         <td> </td>
+      </tr>
+      <tr>
+         <td></td>
+         <td></td>
+         <td>Kodaikanal</td>
+         <td> </td>
+      </tr>
+
+   </table>
+ <img src="pic7.png" height="100px" width="100px">
+ <img src="pic15.png" height="100px" width="100px">
+
+   
+</div>
+<br>
+<div>
+   <hr width="100%" color="white">
+   <h2 style="text-align: center; color: white;">&copy; <span style="color: darkorange;">C</span>hain   <span style="color: darkorange;">L</span>oop</h2>
+    </div>
+
+    <!--jquery image slide-->
+
+
+   <script>
+    $(".slideshow div:gt(0)").hide() ;
+    setInterval(function (){
+        $('.slideshow div:first-child')
+        .fadeOut()
+        .next ()
+        .fadeIn()
+        .end()
+        .appendTo('.slideshow');
+        
+    },3000);
+   </script>
+</body>
+</html>

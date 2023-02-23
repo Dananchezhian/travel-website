@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)),url(pic11.jpg);
+    background-size: cover;
+
+}
+.logo{
+    display:flex;
+    position: -webkit-sticky ;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 100%;
+    box-shadow: 0 0px 8px 0 rgba(12, 11, 11, 0.2)
+    
+}
+.logo img{
+    margin-left: 30px;
+    padding-top: 5px;
+}
+.logo p{
+    margin-left: 10px;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo h1{
+    margin-left: 350px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.logo input{
+    margin-left: 300px;
+    margin-top: 25px;
+    height: 18px;
+    width: 200px;
+    
+}
+.logo i{
+    margin-top: 28px;
+    margin-left: 5px;
+}
+
+.slideshow{
+    padding-top: 10px;
+    height: 450px;
+    width: 90%;
+    margin-left: 5%;
+   
+}
+.slideshow img{
+     height: 450px;
+     width: 80%;
+     margin-left: 10%;
+     box-shadow: 0 0px 8px 0 rgba(255, 255, 255, 0.5);
+}
+.nav{
+    margin: 0%;
+    background-color:transparent;
+    width: 90%;
+    margin-left: 5%;
+    position:absolute;
+}
+.dropdown{
+    display: flex;
+    justify-content:end;
+    list-style-type: none;
+}
+a{
+    display: block;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    
+}
+a:hover{
+    
+    cursor: pointer;
+   background-color:rgb(87, 218, 26);
+   color: white;
+   border-radius: 30px;
+   transform: scale(1.075);
+   transition: 0.2s ease-in;
+   
+}
+.hills{
+    list-style-type: none;
+    display: none;
+    position: relative;
+    right: 40px;
+   
+}
+.dropdown li:nth-child(2):hover .hills{
+    display: block;
+}
+.select{
+    position:relative;
+    top: 34px;
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.70)),url(light.jpg);
+}
+.col{
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    margin-left: 40px;
+    background-image: url(pic4.jpg);
+    background-size: cover;
+   
+}
+
+.col1{
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    margin-left: 40px;
+    background-image: url(pic12.jpg);
+    background-size: cover;
+   
+}
+.col1:hover{
+    border-radius: 20px;
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    box-shadow: 0 0px 8px 0 rgba(255, 255, 255, 0.5);
+}
+.col2:hover{
+    border-radius: 20px;
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    box-shadow: 0 0px 8px 0 rgba(255, 255, 255, 0.5);
+}
+.col:hover{
+    border-radius: 20px;
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    box-shadow: 0 0px 8px 0 rgba(255, 255, 255, 0.5);
+}
+.col2{
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    margin-left: 40px;
+    background-image: url(pic8.jpg);
+    background-size: cover;
+    
+}
+.col h3{
+    position: relative;
+    top: 230px;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 0 0 2px #000000, 0 0 5px #000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.col1 h3{
+    position: relative;
+    top: 230px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 0 0 2px #000000, 0 0 5px #000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.col2 h3{
+    position: relative;
+    top: 230px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 0 0 2px #000000, 0 0 5px #000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    
+}
+.select h1{
+    text-align: center;
+    padding-top:40px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.select p{
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    display: flex;
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    background-color:transparent;
+    position: relative;
+    top: 33px;
+}
+.footer img{
+    position: relative;
+    top: 50px;
+    right: 100px;
+}
+.footer table{
+    padding-top: 10px;
+}
+.temple1{
+    height: 400px;
+    width: 90%;
+    margin-left: 5%;
+    background-color:transparent;
+    position: relative;
+    display: flex;
+   
+   
+}
+.temple{
+    height: 450px;
+    width: 100%;
+    position: relative;
+    top: 33px;
+    background-image: linear-gradient(rgba(0,0,0,0.80), rgba(0,0,0,0.80)),url(pic10.jpg);
+    background-size: cover;
+}
+.discribe{
+    height: 400px;
+    width: 330px;
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    padding-left: 10px;
+}
+.discribe h1{
+    text-align: center;
+}
+.temple1 img{
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.temple1 img:hover{
+   border-radius: 20px;
+   transform: scale(1.075);
+   transition: 0.2s ease-in;
+   cursor: pointer;
+   box-shadow: 0 0px 8px 0 wheat;
+}
